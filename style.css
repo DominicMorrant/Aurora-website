@@ -336,13 +336,13 @@ footer{
     max-width: 30px;
 }
 .call-now-section-1{
-    background-image: url(img/Recovery-image-1.jpg);
+    background-image: url(img/Recovery-image-1.jpeg);
     width: 100%;
     background-size: cover;
     background-position: center;
 }
 .call-now-section-2{
-    background-image: url(img/Recovery-image-2.jpg);
+    background-image: url(img/Recovery-image-2.jpeg);
     width: 100%;
     background-size: cover;
     background-position: center;
@@ -407,6 +407,15 @@ footer{
 .grid-item-5{
     grid-row: 2/3;
     grid-column: 4/6;
+}
+
+.gallery-grid{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    width: 80%;
+    max-width: 350px;
+    margin: 0 auto;
 }
 
 /*====================== Section End ==================*/
@@ -649,6 +658,10 @@ footer{
         margin: 0 auto;
     }
 
+    .gallery-grid{
+        grid-template-columns: 1fr 1fr;
+        max-width: 500px;
+    }
 
     /*======================== Images ======================== */
     
@@ -780,6 +793,11 @@ footer{
 
     .form{
         max-width: 500px;
+    }
+
+    .gallery-grid{
+        grid-template-columns: 1fr 1fr 1fr;
+        max-width: 800px;
     }
 
     /*======================================== Home Hero ========================*/
