@@ -590,6 +590,10 @@ footer{
     display: none;
 }
 
+.under-line{
+    text-decoration: underline;
+}
+
 /*============================== Utility Classes End ========================*/
 
 
@@ -826,7 +830,6 @@ footer{
         order: 2;
         max-width: 55vw;
         margin: 0;
-        padding-top: 10px;
     }
     
     /*=========================== Home Feature Section ==============*/
